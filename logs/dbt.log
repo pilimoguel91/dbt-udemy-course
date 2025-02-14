@@ -1,0 +1,79 @@
+[0m10:35:48.117989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11233ef10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11238dbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11238e0d0>]}
+
+
+============================== 10:35:48.123186 | e0afc0c9-c8d7-4a03-9424-1309b405765c ==============================
+[0m10:35:48.123186 [info ] [MainThread]: Running with dbt=1.7.19
+[0m10:35:48.123638 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/pilarmoguel/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init dbtlearn', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:35:48.124531 [debug] [MainThread]: Starter project path: /Users/pilarmoguel/Library/CloudStorage/OneDrive-adidas/Documents/repos/dbt-udemy-course/venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m10:35:48.139510 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:35:48.139809 [info ] [MainThread]: Setting up your profile.
+[0m10:38:25.034847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1126bcb90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112714950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112714e50>]}
+
+
+============================== 10:38:25.049785 | 3194878f-e408-4db3-ac0b-12678c2aff7b ==============================
+[0m10:38:25.049785 [info ] [MainThread]: Running with dbt=1.7.19
+[0m10:38:25.050548 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/pilarmoguel/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init dbtlearn', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:38:25.052057 [info ] [MainThread]: A project called dbtlearn already exists here.
+[0m10:38:25.076848 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.19650775, "process_user_time": 2.447978, "process_kernel_time": 0.62057, "process_mem_max_rss": "103084032", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:38:25.077631 [debug] [MainThread]: Command `dbt init` succeeded at 10:38:25.077360 after 0.20 seconds
+[0m10:38:25.078189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1126f36d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11269b010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d2e73d0>]}
+[0m10:38:25.078688 [debug] [MainThread]: Flushing usage events
+[0m10:38:50.555597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e71b810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e71d110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e73ce10>]}
+
+
+============================== 10:38:50.559797 | 69ff9c94-0715-42b3-b402-507057b6ff8d ==============================
+[0m10:38:50.559797 [info ] [MainThread]: Running with dbt=1.7.19
+[0m10:38:50.560233 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/pilarmoguel/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init dbtlearn', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:38:50.561164 [debug] [MainThread]: Starter project path: /Users/pilarmoguel/Library/CloudStorage/OneDrive-adidas/Documents/repos/dbt-udemy-course/venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m10:38:50.611531 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:38:50.611941 [info ] [MainThread]: Setting up your profile.
+[0m10:42:15.678961 [info ] [MainThread]: Profile dbtlearn written to /Users/pilarmoguel/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:42:15.687856 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 205.17967, "process_user_time": 1.354621, "process_kernel_time": 0.253461, "process_mem_max_rss": "119418880", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:42:15.688652 [debug] [MainThread]: Command `dbt init` succeeded at 10:42:15.688417 after 205.18 seconds
+[0m10:42:15.689747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e6c3290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109242990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e0a2590>]}
+[0m10:42:15.690749 [debug] [MainThread]: Flushing usage events
+[0m10:32:07.068957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e126350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7bd450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7bd950>]}
+
+
+============================== 10:32:07.074393 | 2f9c3ccf-e600-4f5f-b792-37e727e6d319 ==============================
+[0m10:32:07.074393 [info ] [MainThread]: Running with dbt=1.7.19
+[0m10:32:07.074852 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/pilarmoguel/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:32:07.075294 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/pilarmoguel/Library/CloudStorage/OneDrive-adidas/Documents/repos/dbt-udemy-course/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:32:07.077934 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.06698091, "process_user_time": 1.146034, "process_kernel_time": 0.173473, "process_mem_max_rss": "104972288", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m10:32:07.078312 [debug] [MainThread]: Command `dbt run` failed at 10:32:07.078174 after 0.07 seconds
+[0m10:32:07.078581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e74ac50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7a8050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7a8190>]}
+[0m10:32:07.078823 [debug] [MainThread]: Flushing usage events

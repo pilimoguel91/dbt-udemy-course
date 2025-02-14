@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://6ad44f8d.us1a.app.preset.io/superset/dashboard/8/?native_filters_key=5wq7BROj-5BWrp4bNFf9sTXCgO98oQn037gEdt2vzt55xlBlVomLNnMinjNU5bWy
+    description: Executive Dashboard about Airbnb listings and hosts
+
+
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: Pili Moguel
+      email: pilimoguel91@gmail.com
